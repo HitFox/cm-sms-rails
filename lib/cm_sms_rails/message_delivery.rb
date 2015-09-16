@@ -1,8 +1,10 @@
 require 'cm_sms/message_delivery'
+require 'cm_sms_rails/delivery_job'
 
-module CmSms
-  module MessageDeliveryRefinement
-    refine MessageDelivery do
+module CmSmsRails
+  module MessageDelivery
+    refine CmsSms::MessageDelivery do
+      
       def deliver_later!(options={})
         enqueue_delivery :deliver_now!, options
       end
@@ -15,10 +17,11 @@ module CmSms
 
       def enqueue_delivery(delivery_method, options = {})
         raise 'Please use the deliver_now method, because you not have ActiveJob setted up right.' unless defined?(ActiveJob)
-      
+    
         args = @messenger.name, @message_method.to_s, delivery_method.to_s, *@args
-        CmSms::DeliveryJob.set(options).perform_later(*args)
+        DeliveryJob.set(options).perform_later(*args)
       end
     end
   end
 end
+  

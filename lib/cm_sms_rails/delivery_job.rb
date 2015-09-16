@@ -1,4 +1,4 @@
-module CmSms
+module CmSmsRails
   class DeliveryJob < ActiveJob::Base
     class Error < StandardError; end
     
