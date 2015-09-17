@@ -3,11 +3,11 @@ require 'cm_sms_rails/delivery_job'
 
 module CmSmsRails
   module MessageDelivery
-    def deliver_later!(options={})
+    def deliver_later!(options = {})
       enqueue_delivery :deliver_now!, options
     end
 
-    def deliver_later(options={})
+    def deliver_later(options = {})
       enqueue_delivery :deliver_now, options
     end
     
