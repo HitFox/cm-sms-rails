@@ -1,3 +1,5 @@
+require 'rails/generators'
+
 module CmSms
   module Generators
     class ConfigGenerator < ::Rails::Generators::Base
