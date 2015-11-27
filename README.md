@@ -1,3 +1,5 @@
+![alt text](http://www.hitfoxgroup.com/downloads/hitfox_logo_with_tag_two_colors_WEB.png "Logo Hitfox Group")
+
 Cm-Sms-Rails
 ==============
 
