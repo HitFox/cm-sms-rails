@@ -11,25 +11,34 @@ Description
 ​
 *Insert short description here*
 ​
-​
-​
-*Insert additional blocks of information here*
-----------------------------------------------
-Insert additional information that was / is in the readme file here.
-When including your own information please use the order Descriptive content at the top --> Technical content towards the bottom.
-(It's that way in this template already)
+
+Usage
+------------
 ​
 ​
 Installation
 ------------
-*Insert installation instructions here*
-​
-    And don't be shy to use examples for commands :)
-​
+If you user bundler, then just add 
+```ruby
+gem 'cm-sms-rails'
+```
+to your Gemfile and execute
+```
+$ bundle install
+```
+or without bundler
+```ruby
+gem install cms-sms-rails
+```
 Upgrade
 -------
 ```ruby
 bundle update cms-sms-rails
+```
+or without bundler
+
+```ruby
+gem update cms-sms-rails
 ```
 ​
 Changelog
@@ -37,7 +46,7 @@ Changelog
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cm-sms-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/HitFox/cm-sms-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
