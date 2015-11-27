@@ -1,4 +1,4 @@
-# Cm-Sms-Rails
+Cm-Sms-Rails
 ==============
 
 [![Build Status](https://img.shields.io/travis/HitFox/cm-sms-rails.svg?style=flat-square)](https://travis-ci.org/HitFox/cm-sms-rails)
@@ -6,13 +6,11 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/HitFox/cm-sms-rails.svg?style=flat-square)](https://codeclimate.com/github/HitFox/cm-sms-rails)
 [![Coverage](https://img.shields.io/coveralls/HitFox/cm-sms-rails.svg?style=flat-square)](https://coveralls.io/github/HitFox/cm-sms-rails)
 
------
 Description
 -----------
-​
+
 Send text messages by means of the HTTP protocol with the service of https://www.cmtelecom.com, from your rails app.
 ​
-
 Usage
 ------------
 
