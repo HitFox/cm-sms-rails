@@ -50,17 +50,20 @@ end
 In order to send your sms, you simply call the method and then call `deliver_now` on the return value.
 
 Calling the method returns a CmSms Message object:
-
+```ruby
 message = TextMessageNotifier.welcome(User.first)   # => Returns a CmSms::Message object
 message.deliver_now
+```
 
 If you are using ActiveJob you can queue the delivery by calling `deliver_later`
-
+```ruby
 message = TextMessageNotifier.welcome(User.first)   # => Returns a CmSms::Message object
 message.deliver_later
-​
+```
+
 Installation
 ------------
+
 If you user bundler, then just add 
 ```ruby
 $ gem 'cm-sms-rails'
