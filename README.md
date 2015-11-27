@@ -1,39 +1,39 @@
-# Cm::Sms::Rails
+# Cm-Sms-Rails
 
 [![Build Status](https://img.shields.io/travis/HitFox/cm-sms-rails.svg?style=flat-square)](https://travis-ci.org/HitFox/cm-sms-rails)
 [![Gem](https://img.shields.io/gem/dt/cm-sms-rails.svg?style=flat-square)](https://rubygems.org/gems/cm-sms-rails)
 [![Code Climate](https://img.shields.io/codeclimate/github/HitFox/cm-sms-rails.svg?style=flat-square)](https://codeclimate.com/github/HitFox/cm-sms-rails)
 [![Coverage](https://img.shields.io/coveralls/HitFox/cm-sms-rails.svg?style=flat-square)](https://coveralls.io/github/HitFox/cm-sms-rails)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cm/sms/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Add this line to your application's Gemfile:
-
+-----
+Description
+-----------
+​
+*Insert short description here*
+​
+​
+​
+*Insert additional blocks of information here*
+----------------------------------------------
+Insert additional information that was / is in the readme file here.
+When including your own information please use the order Descriptive content at the top --> Technical content towards the bottom.
+(It's that way in this template already)
+​
+​
+Installation
+------------
+*Insert installation instructions here*
+​
+    And don't be shy to use examples for commands :)
+​
+Upgrade
+-------
 ```ruby
-gem 'cm-sms-rails'
+bundle update cms-sms-rails
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install cm-sms-rails
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+​
+Changelog
+---------
 
 ## Contributing
 
